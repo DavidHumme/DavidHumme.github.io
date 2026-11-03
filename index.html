@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wayfarers: Roads of Hearthstead</title>
+<meta name="description" content="A cozy idle runner. Run the four wandering roads, bonk grumpy critters, rebuild Hearthstead, and bring home the Compass needle a goose ate.">
+<style>
+  :root { --paper: #f3e3c3; --ink: #3a2a1e; --wood: #7a4a2a; --gold: #e0a83a; --sky: #2b3a5c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--sky); color: var(--ink); font-family: Georgia, "Times New Roman", serif; line-height: 1.55; }
+  header { text-align: center; padding: 40px 16px 24px; color: var(--paper); }
+  header h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin: 0; letter-spacing: 0.02em; }
+  header p { font-size: 1.15rem; margin: 6px 0 0; opacity: 0.9; }
+  main { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }
+  .card { background: var(--paper); border: 4px solid var(--wood); border-radius: 10px; padding: 22px 24px; margin: 18px 0; }
+  .shots { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  .shots img { width: 100%; border-radius: 6px; border: 3px solid var(--wood); image-rendering: pixelated; }
+  @media (min-width: 700px) { .shots { grid-template-columns: 1fr 1fr; } .shots img:first-child { grid-column: span 2; } }
+  .badge { display: inline-block; background: var(--gold); color: var(--ink); font-weight: bold; padding: 8px 16px; border-radius: 8px; border: 3px solid var(--wood); }
+  footer { text-align: center; color: var(--paper); opacity: 0.85; padding: 16px; font-size: 0.95rem; }
+  footer a, .card a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Wayfarers</h1>
+  <p>Roads of Hearthstead</p>
+</header>
+<main>
+  <section class="card">
+    <p>Gerald the goose ate the Great Compass's needle. Then he sneezed. Twelve times.</p>
+    <p>Now the Four Roads wander, Hearthstead drifts, and the twelve grumpiest creatures out there each hold a shard. You were late to the village meeting, which in Hearthstead counts as volunteering.</p>
+    <p><strong>Wayfarers</strong> is a cozy idle runner. Run the roads (or let them run while you nap), bonk critters, befriend bosses who become your pen pals, rebuild and rearrange your own village, grow surprises in the Seed Patch, and find out why the goose really did it.</p>
+    <p><span class="badge">Coming soon to Google Play</span></p>
+  </section>
+  <section class="shots">
+    <img src="images/title.png" alt="The title screen: eight biome columns at different times of day">
+    <img src="images/road.png" alt="Running through Honeygold Fields">
+    <img src="images/village.png" alt="Hearthstead in winter during the Frostfire Feast">
+  </section>
+</main>
+<footer>
+  <p><a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+  <p>© 2026 David Humme</p>
+</footer>
+</body>
+</html>
